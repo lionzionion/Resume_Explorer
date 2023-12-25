@@ -1,5 +1,5 @@
 import streamlit as st
-from googlesearch_python import search
+from googlesearch import search
 from itertools import islice
 
 class ResumeExplorer:

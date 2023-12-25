@@ -2,6 +2,9 @@ import streamlit as st
 from googlesearch import search
 from itertools import islice
 
+# Install the required module
+!pip install googlesearch-python
+
 class ResumeExplorer:
     def __init__(self):
         self.query = ""
@@ -70,3 +73,4 @@ class ResumeExplorer:
 
 if __name__ == "__main__":
     resume_explorer = ResumeExplorer()
+
